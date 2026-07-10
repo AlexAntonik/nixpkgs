@@ -2454,7 +2454,7 @@ let
       jackmacwindows.craftos-pc = callPackage ./jackmacwindows.craftos-pc { };
 
       jacobdufault.fuzzy-search = callPackage ./jacobdufault.fuzzy-search { };
-      
+
       jakestanger.corn = callPackage ./jakestanger.corn { };
 
       james-yu.latex-workshop = callPackage ./james-yu.latex-workshop { };
@@ -3875,6 +3875,8 @@ let
           license = lib.licenses.asl20;
         };
       };
+
+      rangav.vscode-thunder-client = callPackage ./rangav.vscode-thunder-client { };
 
       rebornix.ruby = buildVscodeMarketplaceExtension {
         mktplcRef = {
